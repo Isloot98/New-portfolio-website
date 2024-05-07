@@ -25,7 +25,7 @@ const Header = () => {
     <header
       className={`z-50 md:sticky md:top-4 text-white flex justify-center ${
         scrolled
-          ? "bg-fuchsia-950 transition-all duration-500"
+          ? "bg-purple-950 transition-all duration-500"
           : "bg-transparent transition-all duration-500"
       }`}
     >
