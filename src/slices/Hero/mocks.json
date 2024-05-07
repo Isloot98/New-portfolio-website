@@ -1,0 +1,24 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"first_name": {
+				"__TYPE__": "FieldContent",
+				"value": "voice",
+				"type": "Text"
+			},
+			"last_name": {
+				"__TYPE__": "FieldContent",
+				"value": "hall",
+				"type": "Text"
+			},
+			"job_title": {
+				"__TYPE__": "FieldContent",
+				"value": "deep",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

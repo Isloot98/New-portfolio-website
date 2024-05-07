@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  z-index: 10; /* Add z-index */
+}
+
+.ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  z-index: 10; /* Add z-index */
+}
+
+.li {
+  width: calc(19% - 3em);
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin: 1.9em;
+  cursor: crosshair;
+  padding: 1em;
+  background: rgb(43, 43, 43);
+  position: relative;
+  color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  z-index: 10; /* Add z-index */
+}
+
+.li::before,
+.li::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+  width: 105%;
+  transition: all 0.4s;
+}
+
+.li::before {
+  left: 0%;
+  height: 130%;
+  background: linear-gradient(to right, #02608b, #5a0436);
+}
+
+.li::after {
+  left: -10%;
+  height: 120%;
+  background: #ffffff56;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.164);
+}
+
+.li:hover::before {
+  transform: translateX(-2.5%);
+}
+
+.li:hover::after {
+  transform: translateX(15%);
+}
+
+@media (max-width: 768px) {
+  .ul {
+    flex-direction: column;
+  }
+
+  .li {
+    width: 200%;
+    margin: 1em 0;
+  }
+}
