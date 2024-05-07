@@ -126,6 +126,7 @@ const Project = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       ref={projectHeightsRef}
+      target="_blank"
     >
       <div
         className={`col-start-1 p-4 ${styles.projectContent}`}
