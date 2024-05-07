@@ -3,27 +3,29 @@ import React from "react";
 import clsx from "clsx";
 import { KeyTextField, LinkField } from "@prismicio/client";
 import { MdArrowOutward } from "react-icons/md";
+import Link from "next/link";
 
 type ButtonProps = {
-  linkField: LinkField;
+  href: string;
   label: KeyTextField;
   showIcon?: boolean;
   className?: string;
 };
 
 export default function Button({
-  linkField,
+  href,
   label,
   showIcon = true,
   className,
 }: ButtonProps) {
   return (
-    <PrismicNextLink
-      field={linkField}
+    <Link
+      href={href}
       className={clsx(
         "group text-slate-800 hover:text-white relative flex w-fit items-center justify-center overflow-hidden rounded-md border-2 border-slate-900 bg-slate-50  px-4 py-2 font-bold transition-transform ease-out  hover:scale-105",
         className
       )}
+      target="_blank"
     >
       <span
         className={clsx(
@@ -33,6 +35,6 @@ export default function Button({
       <span className="relative flex items-center justify-center gap-2">
         {label} {showIcon && <MdArrowOutward className="inline-block" />}
       </span>
-    </PrismicNextLink>
+    </Link>
   );
 }

@@ -6,6 +6,7 @@ import { PrismicNextImage } from "@prismicio/next";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 import Avatar from "./avatar";
 import styles from "./avatar.module.css";
+import Link from "next/link";
 
 /**
  * Props for `About`.
@@ -29,7 +30,7 @@ const About = ({ slice }: AboutProps): JSX.Element => {
           <PrismicRichText field={slice.primary.description} />
         </div>
         <Button
-          linkField={slice.primary.button_link}
+          href="https://isa-portfolio.cdn.prismic.io/isa-portfolio/ZjoppEMTzAJOCm_T_Isa-CV.pdf-1-.pdf"
           label={slice.primary.button_text}
         />
         <Avatar
