@@ -13,7 +13,7 @@ const Projects = () => {
         skills.
       </p>
       <p className="mt-2 text-left  md:hidden">
-        Long press to view more details - Tap to view project
+        swipe and hold to view more details - Tap to view project
       </p>
       {projectsData.map((project, index) => (
         <Project
