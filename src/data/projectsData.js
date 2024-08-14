@@ -15,7 +15,7 @@ const projectsData = [
       ".NET MAUI",
     ],
     timeTaken: "In progress",
-    url: "https://flavor-voyage-five.vercel.app/",
+    url: "/projects",
     imagePath: "./FV.png",
   },
   {
