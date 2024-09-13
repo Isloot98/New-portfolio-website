@@ -16,7 +16,7 @@ const projectsData = [
       "My final project at Tech Educators involved collaborating with a team of four, where I applied a wealth of knowledge acquired throughout my tenure. Enhancing my coding skills and teamwork capabilities, we successfully completed the project without encountering any merge conflicts, working together seamlessly. This experience has fuelled my ambition to embark on a career as a software developer, eager to contribute my expertise and continue growing in the field.",
     techUsed: ["Next.js", "SQL", "Supabase", "Clerk", "Tailwind CSS"],
     timeTaken: "5 Days",
-    url: "https://flavor-voyage-five.vercel.app/",
+    url: "https://my-flavor-voyage.vercel.app/",
     imagePath: "./FV.png",
   },
   {
