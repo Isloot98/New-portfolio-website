@@ -5,15 +5,7 @@ const projectsData = [
     projectName: "In Progress: Fantasy Rugby",
     projectDescription:
       "The goal of this project is to develop a unique Fantasy Rugby app, inspired by the Guinness Six Nations Fantasy, but with a local twist. Instead of selecting international stars, users will build their fantasy teams from players across all levels of their local rugby club, including the 1st, 2nd, and 3rd teams, as well as women's, colts, and other squads. This app aims to deepen community engagement, driving more support and camaraderie among club members and fans for every team in the club. It’s a perfect blend of my passions for coding and rugby, creating an innovative way to bring local rugby enthusiasts together.",
-    techUsed: [
-      "Next.js",
-      "SQL",
-      "Supabase",
-      "Clerk",
-      "Tailwind CSS",
-      "C#",
-      ".NET MAUI",
-    ],
+    techUsed: ["Next.js", "SQL", "Supabase", "Clerk", "Tailwind CSS"],
     timeTaken: "In progress",
     url: "/projects",
     imagePath: "./FV.png",
