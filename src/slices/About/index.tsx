@@ -30,7 +30,7 @@ const About = ({ slice }: AboutProps): JSX.Element => {
           <PrismicRichText field={slice.primary.description} />
         </div>
         <Button
-          href="https://isa-portfolio.cdn.prismic.io/isa-portfolio/ZjoppEMTzAJOCm_T_Isa-CV.pdf-1-.pdf"
+          href="https://isa-portfolio.cdn.prismic.io/isa-portfolio/Z03ZZJbqstJ979SQ_Isa-CV.pdf-2-.pdf"
           label={slice.primary.button_text}
         />
         <Avatar
